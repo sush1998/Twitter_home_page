@@ -24,7 +24,8 @@ body
 
 .fa-twitter
 {
-    font-size: x-large;
+    color:var(--twitter-color);
+    font-size: 30px;
     font-weight: 800;
 }
 .material-icons , .fa-twitter
