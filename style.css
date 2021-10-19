@@ -9,6 +9,10 @@ body
     --twitter-color:#50b7f5;
     --twitter-backgroud:#e6ecf0;
     display: flex;
+    height: 100vh;
+    max-width: 82em;
+    margin: auto;
+    padding: 0 1em;
 }
 .sidebarOption
 {
@@ -53,5 +57,5 @@ body
     font-weight: 900;
     padding: 10px;
     margin-top: 20px;
-
+    cursor: pointer;
 }
