@@ -22,6 +22,11 @@ body
     width: fit-content;
 }
 
+.fa-twitter
+{
+    font-size: x-large;
+    font-weight: 800;
+}
 .material-icons , .fa-twitter
 {
     padding: 20px;
