@@ -75,3 +75,27 @@ body
     padding: 0 20px;
     margin: 20px 0 0 0 ;
 }
+
+/* FEED STARTS */
+.feed
+{
+    flex: 0.5;
+    border-right:1px solid var(--twitter-backgroud);
+    overflow-y: scroll;
+    min-width: fit-content;
+}
+
+/* hide scroll bar */
+.feed::-webkit-scrollbar 
+{
+    display: none;
+}
+
+.header-feed
+{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 20px;
+    border: 1px solid var(--twitter-backgroud);
+}
+
