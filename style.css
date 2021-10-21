@@ -99,10 +99,46 @@ body
     border: 1px solid var(--twitter-backgroud);
 }
 
+.tweetBox
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 8px solid var(--twitter-backgroud);
+}
+
+.tweetBox-input
+{
+    display: flex;
+    padding: 20px;
+}
+
 .tweetBox-input img
 {
     border-radius: 50%;
     height: 40px;
     width: 40px;
     border: 1px solid var(--twitter-backgroud);
+} 
+
+.tweetBox-input input
+{
+    flex: 1;
+    margin-left: 20px;
+    border:none;
+    outline: none;
+    font-size: 20px;
+}
+
+.tweetBox button
+{
+    background-color: var(--twitter-color);
+    color:#FFFFFF;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    font-weight: 800;
+    border: none;
+    border-radius: 30px;
 }
