@@ -159,6 +159,7 @@ body
     height:40px;
     width:40px;
     border-radius: 50%;
+    padding: 20px;
 }
 
 .post-header-username
@@ -185,6 +186,8 @@ body
 
 .post-options
 {
+    margin: 5px auto 0 auto;
     display: flex;
     justify-content:space-around;
+    
 }
