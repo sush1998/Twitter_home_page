@@ -173,15 +173,15 @@ body
     font-size: 15px;
 }
 
-.post-body , .post-image
+.post-image
 {
     background-color:transparent;
     width: 450px;
     height: 320px;
-    object-fit: contain;
+    object-fit: fill;
     border-radius: 20px;
     border: 1px solid var(--twitter-backgroud);
-    margin: 0;
+    margin-top: 10px;
 }
 
 .post-options
