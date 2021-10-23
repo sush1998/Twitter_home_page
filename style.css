@@ -167,8 +167,24 @@ body
     font-weight: 800;
 }
 
-.post_body img
+.post-header-icon .material-icons
 {
-    max-width: 200px;
+    font-size: 15px;
+}
+
+.post-body , .post-image
+{
+    background-color:transparent;
     width: 450px;
+    height: 320px;
+    object-fit: contain;
+    border-radius: 20px;
+    border: 1px solid var(--twitter-backgroud);
+    margin: 0;
+}
+
+.post-options
+{
+    display: flex;
+    justify-content:space-around;
 }
