@@ -28,7 +28,7 @@ body
     font-size: 30px;
     font-weight: 800;
 }
-.material-icons , .fa-twitter
+.sidebarOption .material-icons , .fa-twitter
 {
     padding: 20px;
 }
@@ -141,4 +141,34 @@ body
     font-weight: 800;
     border: none;
     border-radius: 30px;
+}
+
+
+/* post starts */
+
+.post
+{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    border: 1px solid var(--twitter-backgroud);
+}
+
+.post-avatar img
+{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+}
+
+.post-header-username
+{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.post_body img
+{
+    max-width: 200px;
+    width: 450px;
 }
