@@ -1,5 +1,5 @@
 # Twitter_home_page
-Twitter web app home page UI
+A static Twitter web app home page UI
 </br>
 Widget - Embed tweets
 
