@@ -1,3 +1,4 @@
+
 *
 {
     margin: 0;
@@ -203,7 +204,28 @@ body
     color: gray;
 }
 
+.post-options-item
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
 
+.post-options-item .material-icons:hover
+{
+    color: var(--twitter-color);
+}
+
+.post-options-item .like:hover
+{
+    color:#ed3b24;
+}
+
+.post-options-item-details
+{
+    color: #000000;
+    padding: 1px;
+}
 /* widget starts */
 .widget
 {
