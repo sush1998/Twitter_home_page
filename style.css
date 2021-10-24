@@ -207,13 +207,41 @@ body
 /* widget starts */
 .widget
 {
-    
     flex: 0.3;
+    margin: 20px;
 }
 
 .widget-search-bar
 {
     background-color: var(--twitter-backgroud);
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.widget-search-bar .material-icons
+{
+    font-size: 20px;
+    font-weight: 800;
+    margin:0 10px;
+}
+
+#widget-search-bar-input
+{
+    border: none;
+    background-color: var(--twitter-backgroud);
+    font-size: 16px;
+    outline: none;
+}
+
+
+.widget-container 
+{
+    background-color: var(--twitter-backgroud);
+    padding: 10px;
     border-radius: 20px;
 }
 /* widget ends */
