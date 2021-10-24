@@ -81,7 +81,7 @@ body
 /* FEED STARTS */
 .feed
 {
-    flex: 0.5;
+    flex: 0.4;
     border-right:1px solid var(--twitter-backgroud);
     overflow-y: scroll;
     min-width: fit-content;
@@ -231,7 +231,7 @@ body
 /* widget starts */
 .widget
 {
-    flex: 0.3;
+    flex: 0.4;
     margin: 20px;
 }
 
